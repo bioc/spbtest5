@@ -4,6 +4,7 @@ test <- function() {
 
 test2 <- function(){
 
-    x = c(10,20)
+    #x = c(10,20)
+    x = 20
     myHelper(x)
 }
