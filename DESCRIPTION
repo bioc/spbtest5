@@ -11,4 +11,4 @@ Author: Lori Shepherd [aut]
 License: Artistic-2.0
 URL: https://github.com/Bioconductor/spbtest3.git
 DevelopmentURL: https://github.com/Bioconductor/spbtest3.git
-biocViews: TechnologyData, SequencingData
+biocViews: Organism, Homo_sapien
