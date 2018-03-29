@@ -1,6 +1,6 @@
 Package: spbtest3
 Title: Test Single Package Builder
-Version: 0.99.85
+Version: 0.99.86
 Authors@R: c(person("Lori", "Shepherd",
         email = "Lori.Shepherd@roswellpark.org",
         role = c("aut", "cre")),
@@ -11,4 +11,4 @@ Author: Lori Shepherd [aut]
 License: Artistic-2.0
 URL: https://github.com/Bioconductor/spbtest3.git
 DevelopmentURL: https://github.com/Bioconductor/spbtest3.git
-biocViews: DataImport
+biocViews: Organism, Homo_sapien
