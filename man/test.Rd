@@ -14,6 +14,6 @@
     # workflow and data experiment get 4800 sec (80 min)
     # software times out after 10 min
     # package guideline for software is 5 min (300 sec)
-    Sys.sleep(1)
+    Sys.sleep(306)
     test2()
 }   
