@@ -18,7 +18,7 @@ A test package
 
 <<eval=TRUE>>=
 # workflow and data experiment get 4800 sec (80 min)
-Sys.sleep(1)
+Sys.sleep(700)
 @ 
 
 \end{document}
