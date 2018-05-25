@@ -18,7 +18,6 @@ A test package
 
 <<eval=TRUE>>=
 # workflow and data experiment get 4800 sec (80 min)
-library('devtools')
 Sys.sleep(1)
 trueTest <- T
 temp <- system("ls", intern=TRUE)

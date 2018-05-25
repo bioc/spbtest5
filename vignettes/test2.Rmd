@@ -20,5 +20,6 @@ knitr::opts_chunk$set(collapse=TRUE)
 # Overview
 
 ```{r}
+library('devtools')
 vl <- T
 ```
