@@ -9,7 +9,6 @@ vignette: >
     %\VignetteEngine{knitr::rmarkdown}
     %\VignetteIndexEntry{Bioc Test3}
     %\VignetteEncoding{UTF-8}
-    %\VignetteDepends{rtracklayer}
 ---
 
 ```{r setup, echo=FALSE}
@@ -18,7 +17,9 @@ knitr::opts_chunk$set(collapse=TRUE)
 
 # Overview
 
-```
+```{r}
+library(GenomicRanges)
 something <- "something"
 class(something) == "character"
 ```
+
