@@ -1,0 +1,24 @@
+---
+title: "Bioc Tes3"
+author: Lori Shepherd
+output:
+  BiocStyle::html_document:
+    toc: true
+    toc_depth: 2
+vignette: >
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteIndexEntry{Bioc Test3}
+    %\VignetteEncoding{UTF-8}
+    %\VignetteDepends{rtracklayer}
+---
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+# Overview
+
+```
+something <- "something"
+class(something) == "character"
+```

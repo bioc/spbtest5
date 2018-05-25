@@ -9,5 +9,10 @@
 }
 \value{The name of the package as a character string} 
 \examples{
+
+    myfunction <- function(){
+        iam <- F
+    }
+    myfunction()
     whoami()
 } 

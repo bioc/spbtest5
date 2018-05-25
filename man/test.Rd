@@ -16,4 +16,6 @@
     # package guideline for software is 5 min (300 sec)
     Sys.sleep(1)
     test2()
+    T <- "something"
+    T
 }   

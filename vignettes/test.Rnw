@@ -1,6 +1,6 @@
-%\VignetteIndexEntry{spbtest3}
-%\VignetteKeywords{spbtest3}
-%\VignettePackage{spbtest3}
+%\VignetteIndexEntry{test}
+%\VignetteKeywords{test}
+%\VignettePackage{test}
 \documentclass{article}
 
 \title{An Introduction to the spbtest3 Package}
@@ -18,9 +18,10 @@ A test package
 
 <<eval=TRUE>>=
 # workflow and data experiment get 4800 sec (80 min)
+library('devtools')
 Sys.sleep(1)
-vl = c(me = "soemthing", to = "stuff")
-cat("value is a ", class(vl)) 
+trueTest <- T
+temp <- system("ls", intern=TRUE)
 @ 
 
 \end{document}
