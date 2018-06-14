@@ -11,7 +11,7 @@ test2 <- function(){
 
 test3 <- function(){
 
-    mat1 <- matrix(1:20, nrow=5)
+    mat1 <- matrix(seq_len(20), nrow=5)
     x <- list(orig = mat1, T = t(mat1))
     x$T
 }
@@ -23,14 +23,14 @@ test4 <- function(){
 
 test5 <- function(){
     T <- "whatsinaname"
-    myX <- c(1:2)
-    names(myX) <- c( T , "rose")
+    myX <- seq_len(2)
+    names(myX) <- c(T , "rose")
     myX[ T ] 
 }
 
 test6 <- function(){
     x <- "alotoffunctioncode"
-    T
+    TRUE
 }
 
 test7 <- function(){

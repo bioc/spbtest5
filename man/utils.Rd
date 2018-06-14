@@ -11,7 +11,7 @@
 \examples{
 
     myfunction <- function(){
-        iam <- F
+        iam <- FALSE
     }
     myfunction()
     whoami()

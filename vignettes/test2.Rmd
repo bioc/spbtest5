@@ -19,5 +19,5 @@ knitr::opts_chunk$set(collapse=TRUE)
 
 ```{r}
 library(GenomicRanges)
-vl <- T
+vl <- TRUE
 ```
