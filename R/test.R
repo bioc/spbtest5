@@ -36,3 +36,11 @@ test6 <- function(){
 test7 <- function(){
     set.seed(1)
 }
+
+test8 <- function(x=2){
+
+    if (c(1,2,3) %in% x){
+        # should produce error
+        x + 4
+    }
+}

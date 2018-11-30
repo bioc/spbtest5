@@ -1,9 +1,12 @@
 \name{test}
 \alias{test}
 \alias{test2}
+\alias{test8}
 \title{A simple test function}
 \usage{
     test()
+    test2()
+    test8(x)
 }
 \description{
     A simple test function. \code{\link{show}} \code{link[ape]{drop.tip}} \code{\link[magrittr]{\%>\%}}
@@ -18,4 +21,9 @@
     test2()
     T <- "something"
     T
+    \donttest{
+       # test a donttest
+       me <- "lori"
+    }
+    test8()
 }   

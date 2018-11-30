@@ -15,4 +15,8 @@
     }
     myfunction()
     whoami()
+    \dontrun{
+       # test a dontrun
+       a = 1
+    }
 } 
