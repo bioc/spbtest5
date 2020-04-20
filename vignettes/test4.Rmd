@@ -1,0 +1,36 @@
+---
+title: "Bioc Test4"
+author: Lori Shepherd
+output:
+  BiocStyle::html_document:
+    toc: true
+    toc_depth: 2
+vignette: >
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteIndexEntry{Bioc Test4}
+    %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+# Overview
+
+```{r, eval=TRUE}
+
+mytest <- function(x=2){
+
+    if (c(1,2,3) %in% x){
+        # should produce error
+        x + 4
+    }
+}
+mytest()
+
+# same code in 
+library(spbtest3)
+test8()
+
+```
+
