@@ -39,7 +39,7 @@ test7 <- function(){
 
 test8 <- function(x=2){
 
-    if (c(1,2,3) %in% x){
+    if (all(c(1,2,3) %in% x)){
         # should produce error
         x + 4
     }
