@@ -1,6 +1,6 @@
 Package: spbtest3
 Title: Test Single Package Builder
-Version: 0.99.107
+Version: 0.99.108
 Authors@R: c(person("Lori", "Shepherd",
         email = "Lori.Shepherd@roswellpark.org",
         role = c("aut", "cre")),
@@ -15,4 +15,4 @@ biocViews: Software, DataImport, BiologicalQuestion
 VignetteBuilder: knitr
 Suggests: BiocStyle, knitr, GenomicRanges
 RoxygenNote: 6.0.1
-BiocType: book
+BiocType: Docker
