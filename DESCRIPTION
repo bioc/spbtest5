@@ -1,4 +1,4 @@
-Package: spbtest
+Package: spbtest3
 Title: Test Single Package Builder
 Version: 0.99.111
 Authors@R: c(person("Lori", "Shepherd",
