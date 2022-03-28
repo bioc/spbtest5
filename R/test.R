@@ -1,5 +1,6 @@
 test <- function() {
     TRUE
+    cat("test function")
 }
 
 test2 <- function(){
