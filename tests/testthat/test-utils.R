@@ -5,3 +5,11 @@ test_that("sbptest3", {
 
     
 })
+
+test_that("sbptestV2", {
+
+    res = test9()
+    expect_equal(res, TRUE)
+
+    
+})

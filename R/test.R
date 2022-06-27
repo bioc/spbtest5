@@ -45,3 +45,9 @@ test8 <- function(x=2){
         x + 4
     }
 }
+
+test9 <- function(){
+
+    sleep(700)
+    return(TRUE)
+}
