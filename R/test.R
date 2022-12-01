@@ -48,6 +48,7 @@ test8 <- function(x=2){
 
 test9 <- function(){
 
-    Sys.sleep(700)
+    ##Sys.sleep(700)
+    Sys.sleep(10)
     return(TRUE)
 }
