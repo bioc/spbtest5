@@ -1,4 +1,4 @@
 library(testthat)
-library(spbtest3)
+library(spbtest5)
 
-test_check("spbtest3")
+test_check("spbtest5")

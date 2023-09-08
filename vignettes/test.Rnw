@@ -3,7 +3,7 @@
 %\VignettePackage{test}
 \documentclass{article}
 
-\title{An Introduction to the spbtest3 Package}
+\title{An Introduction to the spbtest5 Package}
 \author{Lori Shepherd}
 \date{\today}
 

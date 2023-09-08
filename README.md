@@ -1,7 +1,7 @@
-# spbtest3
+# spbtest5
 Test package for the Single Package Builder
 
-Note: This package has 3 alternate branches from 'master'
+Note: This package has 3 alternate branches from default
 
 
 1. runERROR
@@ -10,4 +10,4 @@ Note: This package has 3 alternate branches from 'master'
 
 
 The different branches will check with the appropraite flag. 
-Create a Pull request into the 'master' branch to update which is currently active 
+Create a Pull request into the default branch to update which is currently active 

@@ -2,7 +2,7 @@ Something <- "something"
 globalTruth <- T
 
 whoami <- function() {
-    print("spbtest3!")
+    print("spbtest!")
 }
 
 classtest <- function(){
