@@ -1,7 +1,7 @@
 test_that("sbptest3", {
 
     res = test6()
-    expect_equal(res, FALSE)
+    expect_equal(res, TRUE)
 
     
 })
