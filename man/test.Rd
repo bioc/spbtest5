@@ -11,6 +11,9 @@
 \description{
     A simple test function. \code{\link{show}} \code{link[ape]{drop.tip}} \code{\link[magrittr]{\%>\%}}
 }
+\arguments{
+    \item{x}{numeric value}
+}
 \value{A logical TRUE}   
 \examples{
     test()
